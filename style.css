@@ -9,3 +9,11 @@ body {
 #description {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#unix {
+ font-size: medium;
+}
+
+#js {
+  font-size: x-large;
+}
