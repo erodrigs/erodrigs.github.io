@@ -1,10 +1,15 @@
 body {
   background-color: #403D39;
   color: #FFFCF2;
+  padding: 3%;
 }
 
 #description {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  top: 36%;
+  font-size: small;
+  left: 38%;
 }
 
 #unix {
@@ -24,13 +29,14 @@ body {
 
 .image-container {
   height: 300px;
-}
-
-div {
- border: 2px solid green;
+  position: relative;
 }
 
 #nome {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+}
+
+ul li:nth-child(odd) {
+  font-style: italic;
 }
