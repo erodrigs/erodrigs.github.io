@@ -1,43 +1,13 @@
 body {
-  background-color: #403D39;
-  color: #FFFCF2;
-  padding: 3%;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 
-#description {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  position: absolute;
-  top: 36%;
-  font-size: small;
-  left: 38%;
-}
-
-#unix {
- font-size: medium;
-}
-
-#js {
-  font-size: x-large;
-}
-
-#minha-foto {
-  float: left;
-  height: 280px;
-  padding: 10px;
-  background-color: #8A817C;
-  border-radius: 50%;
-}
-
-.image-container {
-  height: 300px;
-  position: relative;
-}
-
-#nome {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1, h2, p {
   text-align: center;
 }
 
-ul li:nth-child(odd) {
-  font-style: italic;
+#name {
+  margin-left: auto;
+  margin-right: auto;
 }
