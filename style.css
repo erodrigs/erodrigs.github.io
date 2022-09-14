@@ -91,6 +91,15 @@ h1, h2, h3, p {
   color: #ffffff;
 } 
 
+#btn-menu {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  background: transparent;
+  
+}
+
 /* Estilizando o menu mobile */
 
 .menu-mobile {
