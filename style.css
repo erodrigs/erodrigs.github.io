@@ -148,3 +148,12 @@ h1, h2, h3, p {
   transform: translateY(36px) rotate(-45deg);
   background-color: red;
 }
+
+#btn-menu.ativar .linha:nth-child(3) {
+  transform: translateY(-36px) rotate(45deg);
+  background-color: red;
+}
+
+#btn-menu.ativar .linha:nth-child(2) {
+  width: 0;
+}
