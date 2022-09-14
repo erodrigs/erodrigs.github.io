@@ -143,3 +143,8 @@ h1, h2, h3, p {
     width: 100%;
   }
 }
+
+#btn-menu.ativar .linha:nth-child(1) {
+  transform: translateY(36px) rotate(-45deg);
+  background-color: red;
+}
