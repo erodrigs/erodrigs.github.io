@@ -58,13 +58,22 @@ h1, h2, h3, p {
   text-decoration: none;
   padding-right: 50px;
   font-size: 18px;
+  position: relative;
 }
 
 .menu nav a::after {
   content: " ";
-  width: 30px;
+  width: 0px;
   height: 4px;
   background-image: linear-gradient(45deg, #FF2500, #FF7100);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.menu nav a:hover::after {
+  width: 30px;
 }
 
 .social button {
