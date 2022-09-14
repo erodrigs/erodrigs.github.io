@@ -101,4 +101,9 @@ h1, h2, h3, p {
   left: 0;
   width: 100%;
   height: 100vh;
+  display: none;
+}
+
+@media screen and (max-width: 1030px) {
+  
 }
