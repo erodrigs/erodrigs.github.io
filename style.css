@@ -95,4 +95,9 @@ h1, h2, h3, p {
 
 .menu-mobile {
   background-color: #0000008c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
