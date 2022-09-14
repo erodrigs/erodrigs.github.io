@@ -111,6 +111,10 @@ h1, h2, h3, p {
   font-size: 16pt;
 }
 
+.menu-mobile nav a:hover {
+  background-color: #000000ce;
+}
+
 @media screen and (max-width: 1030px) {
   .menu, .social {
     display: none;
