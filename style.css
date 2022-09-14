@@ -108,6 +108,7 @@ h1, h2, h3, p {
   text-decoration: none;
   display: block;
   padding: 20px 30px;
+  font-size: 16pt;
 }
 
 @media screen and (max-width: 1030px) {
