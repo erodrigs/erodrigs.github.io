@@ -97,11 +97,11 @@ h1, h2, h3, p {
   background-color: #0000008c;
   backdrop-filter: blur(10px);
   position: absolute;
-  top: 0;
+  top: 94px;
   left: 0;
   width: 100%;
   height: 100vh;
-  display: none;
+  
 }
 
 @media screen and (max-width: 1030px) {
