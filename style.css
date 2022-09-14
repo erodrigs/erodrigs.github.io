@@ -90,3 +90,9 @@ h1, h2, h3, p {
   font-size: 20px;
   color: #ffffff;
 } 
+
+/* Estilizando o menu mobile */
+
+.menu-mobile {
+  background-color: #0000008c;
+}
